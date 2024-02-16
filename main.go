@@ -4,16 +4,17 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"imaotai/config"
-	"imaotai/db"
-	"imaotai/models"
-	"imaotai/msg"
-	"imaotai/reqfunc"
-	"imaotai/service"
-	"imaotai/task"
 	"os"
 	"os/signal"
 	"syscall"
+
+	"github.com/litterGuy/imaotai/config"
+	"github.com/litterGuy/imaotai/db"
+	"github.com/litterGuy/imaotai/models"
+	"github.com/litterGuy/imaotai/msg"
+	"github.com/litterGuy/imaotai/reqfunc"
+	"github.com/litterGuy/imaotai/service"
+	"github.com/litterGuy/imaotai/task"
 )
 
 func main() {

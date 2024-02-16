@@ -3,12 +3,13 @@ package service
 import (
 	"errors"
 	"fmt"
-	"gorm.io/gorm"
-	"imaotai/config"
-	"imaotai/db"
-	"imaotai/models"
-	"imaotai/reqfunc"
 	"log"
+
+	"github.com/litterGuy/imaotai/config"
+	"github.com/litterGuy/imaotai/db"
+	"github.com/litterGuy/imaotai/models"
+	"github.com/litterGuy/imaotai/reqfunc"
+	"gorm.io/gorm"
 )
 
 // RefreshData 刷新数据库

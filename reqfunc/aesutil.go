@@ -5,7 +5,8 @@ import (
 	"crypto/aes"
 	"crypto/cipher"
 	"encoding/base64"
-	"imaotai/common/errorx"
+
+	"github.com/litterGuy/imaotai/common/errorx"
 )
 
 const (

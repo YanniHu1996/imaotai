@@ -3,10 +3,11 @@ package msg
 import (
 	"bytes"
 	"encoding/json"
-	"imaotai/common/errorx"
-	"imaotai/config"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/litterGuy/imaotai/common/errorx"
+	"github.com/litterGuy/imaotai/config"
 )
 
 func SendPushPlus(content string) {

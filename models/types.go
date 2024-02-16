@@ -1,8 +1,8 @@
 package models
 
 import (
+	"github.com/litterGuy/imaotai/db"
 	"gorm.io/gorm"
-	"imaotai/db"
 )
 
 func Init() {

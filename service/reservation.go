@@ -2,11 +2,12 @@ package service
 
 import (
 	"fmt"
-	"imaotai/config"
-	"imaotai/db"
-	"imaotai/models"
-	"imaotai/reqfunc"
 	"strings"
+
+	"github.com/litterGuy/imaotai/config"
+	"github.com/litterGuy/imaotai/db"
+	"github.com/litterGuy/imaotai/models"
+	"github.com/litterGuy/imaotai/reqfunc"
 )
 
 // Reservation 预约

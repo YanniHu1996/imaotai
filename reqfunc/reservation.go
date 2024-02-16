@@ -3,9 +3,10 @@ package reqfunc
 import (
 	"bytes"
 	"encoding/json"
-	"imaotai/common/errorx"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/litterGuy/imaotai/common/errorx"
 )
 
 // Reservation 预约

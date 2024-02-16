@@ -1,13 +1,14 @@
 package task
 
 import (
-	"github.com/robfig/cron/v3"
-	"imaotai/config"
-	"imaotai/msg"
-	"imaotai/service"
 	"log"
 	"os"
 	"time"
+
+	"github.com/litterGuy/imaotai/config"
+	"github.com/litterGuy/imaotai/msg"
+	"github.com/litterGuy/imaotai/service"
+	"github.com/robfig/cron/v3"
 )
 
 type CronTask struct {

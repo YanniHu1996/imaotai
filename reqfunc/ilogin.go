@@ -6,12 +6,13 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"imaotai/common/errorx"
 	"io/ioutil"
 	"net/http"
 	"regexp"
 	"strings"
 	"time"
+
+	"github.com/litterGuy/imaotai/common/errorx"
 )
 
 // GetMTVersion 获取app版本号

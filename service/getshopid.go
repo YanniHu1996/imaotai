@@ -3,13 +3,14 @@ package service
 import (
 	"errors"
 	"fmt"
-	"imaotai/config"
-	"imaotai/db"
-	"imaotai/models"
 	"math"
 	"sort"
 	"strconv"
 	"strings"
+
+	"github.com/litterGuy/imaotai/config"
+	"github.com/litterGuy/imaotai/db"
+	"github.com/litterGuy/imaotai/models"
 )
 
 // GetShopId 获取预约门店id
